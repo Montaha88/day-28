@@ -1,0 +1,134 @@
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+header h1{
+    padding: 20px;
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-bar p{
+    padding-right: 15px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#logo-1{
+    padding-top: 20px;
+    padding-right: 20px;
+    height: 19px;
+    width: 19px;
+}
+#logo-2{
+    padding-top: 20px;
+    padding-right: 20px;
+    height: 36px;
+    width: 36px;
+}
+.main-sec{
+    display: flex;
+    padding-left: 20px;
+    background-color: rgb(246, 238, 238);
+}
+.div-1 p{
+    color: rgb(11, 15, 14);
+    font-size: 20px;
+    font-weight: 100;
+}
+.btn{
+    background-color: orangered;
+    color: antiquewhite;
+    border: 0px;
+    height: 40px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 15px 30px;
+    background-position: ;
+}
+.div-2{
+    background-image: url(practice-task/images/Circle\ design.svg);
+    background-repeat:no-repeat; 
+    background-position: right;
+    background-size: 100% 100%;
+    margin-left: 240px;
+}
+.div-2 img{
+    height: 414px;
+    width: 440px;
+    
+}   
+    
+.icon-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.last-mid{
+    width: 1250px;
+    height: 1667px;
+    margin: auto;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 80px;
+}
+.sub-container{
+    width: 329px;
+    height: 476px;
+    padding: 20px;
+    margin-left: 20px;
+    box-shadow: 20px 20px rgb(253, 250, 226);
+}
+.high{
+    text-align: right;
+}
+#idea{
+    background-color: rgb(245, 75, 14);
+    color: antiquewhite;
+    font-size: 20px;
+
+}
+.last-sec{
+    width: 1110px;
+    height: 270px;
+    margin-top: 50px;
+    display: flex;
+}
+.last-div{
+    margin-left: 100px;
+    font-size: 20px;
+    color: rgb(17, 17, 17);
+}.last-head{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}
+footer{
+    background-color: rgb(75, 75, 251);
+    text-align: center;
+    font-weight: 700;
+    height: 300px;
+    font-size: 30px;
+    color: rgb(252, 255, 240);
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#skill{
+    font-size: 20px;
+}
+#doller{
+    font-weight: 1200;
+    font-size: 50px;
+}
